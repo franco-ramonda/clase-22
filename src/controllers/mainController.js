@@ -22,6 +22,12 @@ const controller = {
   search: (req, res) => {
     res.render("results");
   },
+
+  admin: (req, res) => {
+    res.send('Hola Admin')
+  }
 };
 
+
 module.exports = controller;
+
